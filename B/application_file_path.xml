@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filepaths>
+	<server_platform_details>
+		<desc>Server Platform Details</desc>
+		<folder_path></folder_path>
+		<file_path>../atlas/platform_config/server_details.properties
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</server_platform_details>
+	<desktop_html>
+		<desc>for external user home pages contents</desc>
+		<folder_path>../atlas/desktopHtml</folder_path>
+		<file_path>../atlas/desktopHtml/desktop.html</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</desktop_html>
+	<server_path>
+		<desc>Server Path</desc>
+		<!-- Need be replaced '../' with File Server Path, Eg: <folder_path>//172.30.107.92/atlas/myeximport/</folder_path> -->
+		<folder_path>../</folder_path>
+		<file_path>
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</server_path>
+	<atlas_mail_out_file_path>
+		<desc>to save conf file</desc>
+		<folder_path>../atlas/mail/out/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_mail_out_file_path>
+
+	<exports_mandant_in_pdfxml_file_path>
+		<desc>to save conf file</desc>
+		<folder_path>../atlas/conf/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</exports_mandant_in_pdfxml_file_path>
+	<document_management_system>
+		<desc>To save document management system details</desc>
+		<folder_path>../atlas/dms/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</document_management_system>
+	<props_details_de>
+		<desc>Properties Details DE</desc>
+		<folder_path>../atlas/properties/de/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</props_details_de>
+	<props_details_en>
+		<desc>Properties Details EN</desc>
+		<folder_path>../atlas/properties/en/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</props_details_en>
+	<props_details_fr>
+		<desc>Properties Details FR</desc>
+		<folder_path>../atlas/properties/fr/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</props_details_fr>
+	<warennummer_excel_folder>
+		<desc>To save excel file for Warnummber Interface</desc>
+		<folder_path>../atlas/uploaded/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</warennummer_excel_folder>
+	<invoice_interface_file_path>
+		<desc>to store invoice interface file-faktura</desc>
+		<folder_path>../atlas/faktura/invoice/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</invoice_interface_file_path>
+	
+	<pdf_unicode_font_file_path>
+		<desc>PDF Font Filepath For UTF-8 characters</desc>
+		<folder_path>../atlas/fonts/</folder_path>
+		<file_path>../atlas/fonts/NotoSans-Regular.ttf</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</pdf_unicode_font_file_path>
+	
+	<XSL_STYLESHEET>
+		<desc>To validate XML using XSLT</desc>
+		<folder_path>../atlas/xsltvalidation/Ausfuhr/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</XSL_STYLESHEET>
+	
+	<auto_atlas_mail_in_done_file_path>
+		<desc></desc>
+		<folder_path>../atlas/mail/in/done/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</auto_atlas_mail_in_done_file_path>
+
+	<atlas_mail_manual_done_file_path>
+		<desc></desc>
+		<folder_path>../atlas/mail/manual/done/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_mail_manual_done_file_path>
+
+	<atlas_mail_ftam_out_file_path>
+		<desc></desc>
+		<folder_path>../atlas/mail/ftam/out/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_mail_ftam_out_file_path>
+	
+	<pdf_file_admin_out_file_path>
+		<desc>old pdf file out</desc>
+		<folder_path>../atlasold/mail/out/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</pdf_file_admin_out_file_path>
+
+	<pdf_file_admin_done_file_path>
+		<desc>old pdf file auto</desc>
+		<folder_path>../atlasold/mail/in/done/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</pdf_file_admin_done_file_path>
+	<edec_ssl_file_path>
+		<desc>SSL settings for the users</desc>
+		<folder_path>../edec/ssl/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_ssl_file_path>
+	<atlas_xml_input>
+		<desc></desc>
+		<folder_path>../atlas/XMLFiles/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_xml_input>
+	<atlas_asciifiles_input>
+		<desc></desc>
+		<folder_path>../atlas/AsciiFiles/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_asciifiles_input>
+	<auto_atlas_mail_ftam_done_webservice_file_path>
+		<desc></desc>
+		<folder_path>../atlas/mail/ftam/done/webservice/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</auto_atlas_mail_ftam_done_webservice_file_path>
+	<auto_atlas_mail_ftam_in_file_path>
+		<desc></desc>
+		<folder_path>../atlas/mail/ftam/in/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</auto_atlas_mail_ftam_in_file_path>
+	<auto_atlas_mail_ftam_done_file_path>
+		<desc></desc>
+		<folder_path>../atlas/mail/ftam/done/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</auto_atlas_mail_ftam_done_file_path>
+	<auto_atlas_mail_ftam_unread_file_path>
+		<desc></desc>
+		<folder_path>../atlas/mail/ftam/in/unread/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</auto_atlas_mail_ftam_unread_file_path>
+	<T2L_in_pdfxml_file_path>
+		<desc></desc>
+		<!-- The <desc> tag represents the description of the particular module -->
+		<folder_path>../atlas/pdfxml/t2l/</folder_path>
+		<!-- The <folder_path> tag represents the path of the folder -->
+		<file_path></file_path>
+		<!--The <file_path> tag represents the the file name -->
+		<module_scope>all</module_scope>
+		<!-- The <module_scope> tag represents the module scope -->
+		<user_level_scope>all</user_level_scope>
+		<!-- The <user_level_scope> tag represents the user level scope -->
+	</T2L_in_pdfxml_file_path>
+	<exempdf_file_path>
+		<desc></desc>
+		<folder_path>../atlas/pdfxml/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</exempdf_file_path>
+	<AUSFUHR_EXPORTKONTROLLE_WEBSERVICE>
+		<desc>URL to ExportKontrolle WebService</desc>
+		<folder_path></folder_path>
+		<file_path>https://exportkontrollev2.beo-software.de/api/Atlas/GetAtlasSearchResult
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</AUSFUHR_EXPORTKONTROLLE_WEBSERVICE>
+	<notfall_in_pdfxml_file_path>
+		<desc></desc>
+		<folder_path>../atlas/pdfxml/notfall_margins/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</notfall_in_pdfxml_file_path>
+	<epasposition_margin_in_pdfxml_file_path>
+		<desc></desc>
+		<folder_path>../atlas/pdfxml/notfall_margins/notfall_position/
+		</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</epasposition_margin_in_pdfxml_file_path>
+	
+	<edec_webservice_config_file_path>
+		<desc>tag represents the configuration folder utilizes for cerficate 
+			path , webservice configuration for both edec export and import</desc>
+		<folder_path>../edec/config/</folder_path>
+		<file_path>../edec/config/cert.properties</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_webservice_config_file_path>
+	<edec_mail_out_file_path>
+		<desc>holding both import and export xml files being sent</desc>
+		<folder_path>../edec/mail/out/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_mail_out_file_path>
+	<edec_mail_in_file_path>
+		<desc>holding both import and export xml files being received</desc>
+		<folder_path>../edec/mail/in/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_mail_in_file_path>
+	<edec_mail_done_filepath>
+		<folder_path>../edec/mail/done/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_mail_done_filepath>
+	<edec_webservice_temp_file_path>
+		<desc>Temp data storage for Axis</desc>
+		<folder_path>../edec/Temp/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_webservice_temp_file_path>
+	<edec_xml_input>
+		<desc>holding XML files being uploded by the user</desc>
+		<folder_path>../edec/XMLFiles/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_xml_input>
+	<edec_txt_input>
+		<desc>holding Text files being uploded by the user</desc>
+		<folder_path>../edec/TEXTFiles/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_txt_input>
+	<edec_xsl_file_path>
+		<desc>holding XSl Files for Edec Import and Export</desc>
+		<folder_path>../atlas/xsltvalidation/EDEC/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_xsl_file_path>
+	<edec_receipt_response_pdf_path>
+		<desc>edec receipt response pdf path</desc>
+		<folder_path>../edec/edecReceiptPdf/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_receipt_response_pdf_path>
+	<edec_bordereau_response_pdf_path>
+		<desc>edec bordereau response pdf path</desc>
+		<folder_path>../edec/edecBordereauPdf/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_bordereau_response_pdf_path> 
+	<edec_borderau_evv_pdf_path>
+		<desc>edec bordereau evv merged pdf path</desc>
+		<folder_path>../edec/edecBordereauEvvPdf/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_borderau_evv_pdf_path>
+	<atlas_mail>
+		<desc>atlas mail path</desc>
+		<folder_path>../atlas/mail/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_mail>
+	<auto_atlas_persistence_file_path>
+		<desc></desc>
+		<folder_path>../atlas/filecache/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</auto_atlas_persistence_file_path>
+	<!--File path for saving EMCS file upload interface file -->
+	<emcs_manual_interface_file_path>
+		<desc>EMCS Manual Interface Upload file(xml) location</desc>
+		<folder_path>../atlas/XMLFiles/EMCS/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</emcs_manual_interface_file_path>
+	<emcs_manual_ascii_interface_file_path>
+		<desc>EMCS Manual Ascii Interface Upload file location</desc>
+		<folder_path>../atlas/AsciiFiles/EMCS/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</emcs_manual_ascii_interface_file_path>
+	<!--File path for saving exports module user file attachments -->
+	<exports_attachment_file_path>
+		<desc>holding files for Export status module attachments</desc>
+		<folder_path>../atlas/attachments/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</exports_attachment_file_path>
+	
+	<emcs_download_file_path>
+		<desc>emcs_download_file_path</desc>
+		<folder_path>../atlas/downloads/emcs/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</emcs_download_file_path>
+	
+	<notfallheader_in_pdfxml_file_path>
+		<desc></desc>
+		<folder_path>../atlas/pdfxml/notfallheader.pdf/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</notfallheader_in_pdfxml_file_path>
+	<notfallposition_in_pdfxml_file_path>
+		<desc></desc>
+		<folder_path>../atlas/pdfxml/notfallposition.pdf</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</notfallposition_in_pdfxml_file_path>
+	<packstuck_file_path>
+		<desc></desc>
+		<folder_path></folder_path>
+		<file_path>../atlas/helpfiles/Kurzanleitung_BEIPACK_Regeln.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</packstuck_file_path>
+	<faktura_support_email>
+		<desc>Faktura support email</desc>
+		<folder_path></folder_path>
+		<file_path>support@beo-software.de</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</faktura_support_email>
+	<application_information_ticker>
+		<desc>Ticker1</desc>
+		<!--The <desc> tag represents the description of the particular module -->
+		<!-- <folder_path>../atlas/info/</folder_path> -->
+		<folder_path>../atlas/info/</folder_path>
+		<!-- The <folder_path> tag represents the path of the folder-->
+		<file_path>ticker.txt</file_path>
+		<!--The <file_path> tag represents the the file name-->
+		<module_scope>all</module_scope>
+		<!-- The <module_scope> tag represents the module scope-->
+		<user_level_scope>all</user_level_scope>
+		<!-- The <user_level_scope> tag represents the user level scope-->
+	</application_information_ticker>
+	<webservice_out_directory>
+		<desc>Webservice out Directory</desc>
+		<folder_path>../atlas/webservice/out/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</webservice_out_directory>
+	<attachment_file_path>
+		<desc></desc>
+		<!-- The <desc> tag represents the description of the particular module -->
+		<folder_path>../atlas/attachments/</folder_path>
+		<!-- The <folder_path> tag represents the path of the folder -->
+		<file_path></file_path>
+		<!--The <file_path> tag represents the the file name -->
+		<module_scope>all</module_scope>
+		<!-- The <module_scope> tag represents the module scope -->
+		<user_level_scope>all</user_level_scope>
+		<!-- The <user_level_scope> tag represents the user level scope -->
+	</attachment_file_path>
+	<message_stat_admin_auto_file_path>
+		<desc>Auto file path</desc>
+		<folder_path>../atlas/mail/in/done</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</message_stat_admin_auto_file_path>
+	<eza_xml_file_path>
+		<desc>EZA Xml file location</desc>
+		<folder_path>../atlas/XMLFiles/EZA/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</eza_xml_file_path>
+	<vza_xml_file_path>
+		<desc>Vza Xml file location</desc>
+		<folder_path>../atlas/XMLFiles/VZA/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</vza_xml_file_path>
+	<cusped_xml_file_path>
+		<desc>Cusped Xml file location</desc>
+		<folder_path>../atlas/XMLFiles/CUSPED/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</cusped_xml_file_path>
+	<zollager_eza_xml_file_path>
+		<desc>Zolllager EZA Xml file location</desc>
+		<folder_path>../atlas/XMLFiles/SCWDEC/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</zollager_eza_xml_file_path>
+	<einfuhr_interface_xsl_file_path>
+		<desc>EZA xsl file path</desc>
+		<folder_path>../atlas/xsltvalidation/Einfuhr/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</einfuhr_interface_xsl_file_path>
+	<zolllager_interface_xsl_file_path>
+		<desc>EZA xsl file path</desc>
+		<folder_path>../atlas/xsltvalidation/ZOLLLAGER/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</zolllager_interface_xsl_file_path>
+	<av_interface_xsl_file_path>
+		<desc>AV interface xsl validation file path</desc>
+		<folder_path>../atlas/xsltvalidation/AV/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</av_interface_xsl_file_path>
+    <avuv_vza_xml_file_path>
+        <desc>AVUV Vza Xml file location</desc>
+        <folder_path>../atlas/XMLFiles/AvuvVza/input/</folder_path>
+        <file_path></file_path>
+        <module_scope>all</module_scope>
+        <user_level_scope>all</user_level_scope>
+    </avuv_vza_xml_file_path>
+	<cuscon_xml_file_path>
+		<desc>CUSCON Xml file location</desc>
+		<folder_path>../atlas/XMLFiles/CUSCON/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</cuscon_xml_file_path>
+	<webservice_base_directory>
+		<desc>Webservice Directory</desc>
+		<folder_path>../atlas/webservice/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</webservice_base_directory>
+	<expowin_x_document_file_path>
+		<desc></desc>
+		<folder_path>../atlas/XMLFiles/output/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</expowin_x_document_file_path>
+	<atlas_xml_output>
+		<desc></desc>
+		<folder_path>../atlas/XMLFiles/output/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_xml_output>
+	<atlas_xml_expowinatlasx3>
+		<desc></desc>
+		<folder_path>../atlas/XMLFiles/ExpowinAtlasX3/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_xml_expowinatlasx3>
+	<expowintoatlas_source_Directory>
+		<desc>ExpoWinToAtlas Source Directory</desc>
+		<folder_path>../atlas/XMLFiles/webServiceXML/input/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</expowintoatlas_source_Directory>
+	<sanctionXML_file_path>
+		<desc>Sanction XML file location</desc>
+		<folder_path>../atlas/XMLFiles/sanctionXML/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</sanctionXML_file_path>
+	<emcs_manual_interface_file_out>
+		<desc>EMCS Manual Interface Output location</desc>
+		<folder_path>../atlas/XMLFiles/EMCS/output/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</emcs_manual_interface_file_out>
+	<zollager_vza_xml_file_path>
+        <desc>ZOLLAGER Vza Xml file location</desc>
+        <folder_path>../atlas/XMLFiles/ZollagerVza/input/</folder_path>
+        <file_path></file_path>
+        <module_scope>all</module_scope>
+        <user_level_scope>all</user_level_scope>
+   	</zollager_vza_xml_file_path>
+	<xml_xsd_validation>
+		<desc>xml xsd validation</desc>
+		<folder_path>../atlas/xsdvalidation/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</xml_xsd_validation>
+	<ncts_interface_xsl_file_path>
+		<desc>Versand NCTS xsl file path</desc>
+		<folder_path>../atlas/xsltvalidation/NCTS/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</ncts_interface_xsl_file_path>
+	<currency_country_list_path>
+		<desc>Country List for currency conversion</desc>
+		<folder_path>../atlas/helpfiles/</folder_path>
+		<file_path>../atlas/helpfiles/CurrencyConverterCountryList.xml
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</currency_country_list_path>
+	<captcha_config>
+		<desc>Captcha enable/disable</desc>
+		<folder_path>../atlas/captcha/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</captcha_config>
+	<avuv_scidec_xml_file_path>
+        <desc>AVUV EZA Xml file location</desc>
+        <folder_path>../atlas/XMLFiles/SCIDEC/input/</folder_path>
+        <file_path></file_path>
+        <module_scope>all</module_scope>
+        <user_level_scope>all</user_level_scope>
+    </avuv_scidec_xml_file_path>
+	
+	<temp_zip_path>
+	<!-- Temporary file location, for creating zip files temporally, in Linux 
+		 to Linux or Linux to windows case. Better to keep this location, which is 
+		 in the application server itself. -->
+		<desc>Temporary Zip File Location</desc>
+		<folder_path>../atlas/temp_zip_directory/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</temp_zip_path>
+	
+	<edec_receipt_response_xsl_path>
+	<!-- ! NOTE : IN LINUX TO LINUX OR LINUX TO WINDOWS CASE,KEEP THIS LOCATION(WITH REQUIRED FILES) IN THE APPLICATION SERVER ITSELF -->
+		<desc>edec receipt response pdf stylesheet path</desc>
+		<folder_path>../edec/xsl/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_receipt_response_xsl_path>
+	<edec_receipt_request_rampart_path>
+	<!-- ! NOTE : IN LINUX TO LINUX OR LINUX TO WINDOWS CASE,KEEP THIS LOCATION(WITH REQUIRED FILES) IN THE APPLICATION SERVER ITSELF -->
+		<desc>edec receipt request webservice security module path</desc>
+		<folder_path>../edec/apache_rampart/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</edec_receipt_request_rampart_path>
+	
+	<evv_bordereau_pdf_temp_path>
+		<!-- ! NOTE : THE FOLLOWING LOCATION WILL BE CREATED IN THE APPLICATION SERVER ITSELF -->
+		<desc>The path in application server to create temporary evv/bordereau pdf and move to fileserver</desc>
+		<folder_path>../edec/evvBordereauPdfTemp/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</evv_bordereau_pdf_temp_path>
+
+	<edec_base_folder_path>
+	    <desc>edec base path</desc>
+	    <!-- <folder_path>../edec/</folder_path> -->
+	    <folder_path>../edec/</folder_path>
+	    <file_path></file_path>
+	    <module_scope>all</module_scope>
+	    <user_level_scope>all</user_level_scope>
+	</edec_base_folder_path>
+	
+	<AUSFUHR_helpfile>
+		<desc></desc>
+		<folder_path>../atlas/helpfiles</folder_path>
+		<file_path>../atlas/helpfiles/BEO-ATLAS-AUSFUHR_Handbuch_AES_2_4.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</AUSFUHR_helpfile>
+	<EINFUHR_helpfile>
+		<desc></desc>
+		<folder_path>../atlas/helpfiles</folder_path>
+		<file_path>../atlas/helpfiles/BEO-ATLAS-EINFUHR-Normalverfahren_Version_8.9.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</EINFUHR_helpfile>
+	<EDEC_helpfile>
+		<desc></desc>
+		<folder_path>../atlas/helpfiles</folder_path>
+		<file_path>../atlas/helpfiles/E-DEC_Handbuch.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</EDEC_helpfile>
+	<VERSAND_NCTS_helpfile>
+		<desc></desc>
+		<folder_path>../atlas/helpfiles</folder_path>
+		<file_path>../atlas/helpfiles/BEO-ATLAS-NCTS_Version_8.9.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</VERSAND_NCTS_helpfile>
+	<EUR1_helpfile>
+		<desc></desc>
+		<folder_path>../atlas/helpfiles</folder_path>
+		<file_path>../atlas/helpfiles/HandbuchEUR1.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</EUR1_helpfile>
+	<ZOLLLAGER_helpfile>
+		<desc></desc>
+		<folder_path>../atlas/helpfiles</folder_path>
+		<file_path>../atlas/helpfiles/BEO-ATLAS-Zolllager-Normalverfahren_Version_8.8.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</ZOLLLAGER_helpfile>
+	<EINFUHR_SP_helpfile>
+		<desc></desc>
+		<folder_path>../atlas/helpfiles</folder_path>
+		<file_path>../atlas/helpfiles/BEO-ATLAS-EINFUHR-vereinfachtes-Verfahren_Version_8.9.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</EINFUHR_SP_helpfile>
+	<EAS_helpfile>
+		<desc></desc>
+		<folder_path>../atlas/helpfiles</folder_path>
+		<file_path>../atlas/helpfiles/BEO-Atlas-EAS_Handbuch_V_8_3.pdf
+		</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</EAS_helpfile>
+		<atlas_download_pdf>
+		<desc>Atlas Pdf Download Location</desc>
+		<folder_path>../atlas/downloadpdf/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</atlas_download_pdf>
+	<rate_limiting_bucket_capacity>
+		<desc>total bucket capacity(in number) for rate limitting</desc>
+		<folder_path></folder_path>
+		<file_path>25</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</rate_limiting_bucket_capacity>
+	<rate_limiting_bucket_refill_count>
+		<desc>refill token count(in number) for rate-imitting-buckets intervally</desc>
+		<folder_path></folder_path>
+		<file_path>15</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</rate_limiting_bucket_refill_count>
+	<rate_limiting_bucket_refill_interval>
+		<desc>refill interval in seconds for the rate-imitting-buckets</desc>
+		<folder_path></folder_path>
+		<file_path>1</file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</rate_limiting_bucket_refill_interval>
+	<report_service>
+		<desc>report service file location For managing report generation in each module</desc>
+		<folder_path>../atlas/report_service/</folder_path>
+		<file_path></file_path>
+		<module_scope>all</module_scope>
+		<user_level_scope>all</user_level_scope>
+	</report_service>
+	<process_settings>
+
+<desc>Process Settings Details</desc>
+
+<folder_path></folder_path>
+
+<file_path>../atlas/platform_config/process_settings.properties
+
+</file_path>
+
+<module_scope>all</module_scope>
+
+<user_level_scope>all</user_level_scope>
+
+</process_settings>
+
+<props_details_ncts_p4_p5>
+
+<desc>Properties Details for nctsp4 and nctsp5 transition period</desc>
+
+<folder_path>../atlas/businessrule/versand/</folder_path>
+
+<file_path></file_path>
+
+<module_scope>all</module_scope>
+
+<user_level_scope>all</user_level_scope>
+
+</props_details_ncts_p4_p5>
+</filepaths>
